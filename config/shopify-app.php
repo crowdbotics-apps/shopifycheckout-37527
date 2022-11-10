@@ -353,11 +353,11 @@ return [
         */
         [
             'topic' => env('SHOPIFY_WEBHOOK_1_TOPIC', 'ORDERS_CREATE'),
-            'address' => env('SHOPIFY_WEBHOOK_1_ADDRESS', 'https://dd6d-39-34-184-90.ap.ngrok.io/api/webhook-orders-create')
+            'address' => env('SHOPIFY_WEBHOOK_1_ADDRESS', 'https://sapratest.myshopify.com/api/webhook-orders-create')
         ],
         [
             'topic' => env('SHOPIFY_WEBHOOK_2_TOPIC', 'THEMES_PUBLISH'),
-            'address' => env('SHOPIFY_WEBHOOK_2_ADDRESS', 'https://dd6d-39-34-184-90.ap.ngrok.io/webhook/theme-publish')
+            'address' => env('SHOPIFY_WEBHOOK_2_ADDRESS', 'https://sapratest.myshopify.com/webhook/theme-publish')
         ]
     ],
 
